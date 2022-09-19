@@ -1,4 +1,4 @@
-import { Route, Routes, useLocation } from "react-router-dom";
+import { Navigate, Route, Routes, useLocation } from "react-router-dom";
 import Results from "./Results";
 
 function Routee() {
@@ -10,6 +10,7 @@ function Routee() {
           path={["/search", "/images", "/news", "/videos"]}
           element={<Results />}
         /> */}
+        <Route path="/" element={<Navigate replace to="/search" />} />
         <Route path="/search" element={<Results />} />
         <Route path="/image" element={<Results />} />
         <Route path="/news" element={<Results />} />
