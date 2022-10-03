@@ -3,6 +3,7 @@
 Where users can search for relevant information the web
 
 ### Overview:
+A clone of the Google Search's functionality
 
 Users should be able to:
 - Type in keywords which will automatically source the information needed
