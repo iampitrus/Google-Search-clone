@@ -6,6 +6,7 @@ Where users can search for relevant information the web
 A clone of the Google Search's functionality
 
 Users should be able to:
+- Switch between Light and Dark Mode
 - Type in keywords which will automatically source the information needed
 - See images relevant to the keyword
 - Play videos on the site related to keyword typed
